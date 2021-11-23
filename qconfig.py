@@ -31,7 +31,7 @@ def get_qparser():
     parser.add_argument(
         "--include_aclip",
         type=bool,
-        default=False,
+        default=True,
         help="whether to include clip of activation in SAM",
     )
     parser.add_argument(
@@ -97,13 +97,13 @@ def get_qparser():
     parser.add_argument(
         "--bits_choice",
         type=lambda s: [float(item) for item in s.split(",")] if len(s) != 0 else "",
-        default="2,3,4,5,6,7,8",
+        default="2,3,4,5",
         help="bits configuration of each layer",
     )
     parser.add_argument(
         "--wa_same_bit",
         type=bool,
-        default=False,
+        default=True,
         help="whether to set the same bit to weights and activations",
     )
     parser.add_argument(
