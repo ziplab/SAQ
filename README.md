@@ -10,13 +10,13 @@
 
 1. Clone the repository locally:
 
-```
+```bash
 git clone https://github.com/zhuang-group/SAQ
 ```
 
 2. Install pytorch 1.8+, tensorboard and prettytable
 
-```
+```bash
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install tensorboard
 pip install prettytable
@@ -26,7 +26,12 @@ pip install prettytable
 
 ### ImageNet
 
-Download the ImageNet 2012 dataset from [here](http://image-net.org/), and prepare the dataset based on this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4). 
+1. Download the ImageNet 2012 dataset from [here](http://image-net.org/), and prepare the dataset based on this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4). 
+
+2. Change the dataset path in `link_imagenet.py` and link the ImageNet-100 by
+```bash
+python link_imagenet.py
+```
 
 ### CIFAR-100
 
@@ -102,6 +107,16 @@ To train the configuration generator on ImageNet, run:
 ```bash
 sh script/train_generator_imagenet_r18.sh
 ```
+
+3. After training the configuration generator, run following commands to fine-tune the resulting models with the obtained bitwidth configurations on CIFAR-100 and ImageNet.
+```bash
+sh script/finetune_cifar_r20.sh
+```
+
+```bash
+sh script/finetune_imagenet_r18.sh
+```
+
 
 ## License
 

@@ -1,1 +1,2 @@
+# Remember to replace the path of dataset and the path pretrained model
 python train_controller.py --save_path ./output/cifar100/generator/r20/ --data_path path_of_dataset --dataset cifar100 --lr 0.01 --clip_lr 0.01 --opt_type QSAM_SGD --network qsamspreresnet20 --rho 0.4 --pretrained path_of_pretrained_model --qw 3.0 --qa 3.0 --quan_type switchable_LIQ_wn_qsam --gpu 0 --n_epochs 100 --loss_lambda 1e-4 --suffix generator_01 --c_lr 5e-4 --entropy_coeff 5e-3 --target_bops 674 --bit_warmup_epochs 10
