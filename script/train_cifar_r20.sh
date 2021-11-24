@@ -1,2 +1,2 @@
 # Remember to replace the path of dataset and the path pretrained model
-python train_sam.py --save_path ./output/cifar100/qresnet20/w4a4/ --data_path path_of_dataset --dataset cifar100 --lr 0.01 --clip_lr 0.01 --opt_type QSAM_SGD --network qsampreresnet20 --rho 0.4 --pretrained XXXXX --qw 4.0 --qa 4.0 --quan_type LIQ_wn_qsam --experiment_id 01 --seed 01 --gpu 0
+python train_sam.py --save_path ./output/cifar100/qresnet20/w4a4/ --data_path path_of_dataset --dataset cifar100 --lr 0.01 --clip_lr 0.01 --opt_type QSAM_SGD --network qsampreresnet20 --rho 0.4 --pretrained path_of_pretrained_model --qw 4.0 --qa 4.0 --quan_type LIQ_wn_qsam --experiment_id 01 --seed 01 --gpu 0
