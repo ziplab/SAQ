@@ -117,6 +117,28 @@ sh script/finetune_cifar_r20.sh
 sh script/finetune_imagenet_r18.sh
 ```
 
+## Results on CIFAR-100
+
+| Network | Method | Bitwidth | BOPs (M) | Top-1 Acc. (%) | Top-5 Acc. (%) |
+| :-----: | :----: | :------: | :------: | :------------: | :------------: |
+| ResNet-20 | SAQ | 4 | 674.6 | 68.7 | 91.2 |
+| ResNet-20 | SAMQ | MP | 659.3 | 68.7 | 91.2 |
+| ResNet-20 | SAQ | 3 | 392.1 | 67.7 | 90.8 |
+| ResNet-20 | SAMQ | MP | 374.4 | 68.6 | 91.2 |
+| MobileNetV2 | SAQ | 4 | 1508.9 | 75.6 | 93.7 |
+| MobileNetV2 | SAMQ | MP | 1482.1 | 75.5 | 93.6 |
+| MobileNetV2 | SAQ | 3 | 877.1 | 74.4 | 93.2 |
+| MobileNetV2 | SAMQ | MP | 869.5 | 75.5 | 93.7 |
+
+## Results on ImageNet
+
+| Network | Method | Bitwidth | BOPs (G) | Top-1 Acc. (%) | Top-5 Acc. (%) |
+| :-----: | :----: | :------: | :------: | :------------: | :------------: |
+| ResNet-18 | SAQ | 4 | 34.7 | 71.3 | 90.0 |
+| ResNet-18 | SAMQ | MP | 33.7 | 71.4 | 89.9 |
+| ResNet-18 | SAQ | 2 | 14.4 | 67.1 | 87.3 |
+| MobileNetV2 | SAQ | 4 | 5.3 | 70.2 | 89.4 |
+| MobileNetV2 | SAMQ | MP | 5.3 | 70.3 | 89.4 |
 
 ## License
 
