@@ -108,9 +108,7 @@ class MobileNetV2Cifar(nn.Module):
 
 
 def mobilenetv2_cifar(**kwargs):
-    """Constructs a MobileNetV2 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
+    """Constructs a MobileNetV2 CIFAR model.
     """
     model = MobileNetV2Cifar(**kwargs)
     return model

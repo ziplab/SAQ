@@ -170,7 +170,7 @@ class QSAMMobileBottleneck(nn.Module):
 
 class QSAMMobileNetV2(nn.Module):
     """
-    MobileNet_v2
+    QSAMMobileNet_v2
     """
 
     def __init__(
@@ -369,8 +369,6 @@ class QSAMMobileNetV2(nn.Module):
 
 def qsammobilenetv2(**kwargs):
     """Constructs a QSAMMobileNetv2 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMMobileNetV2(**kwargs)
     return model

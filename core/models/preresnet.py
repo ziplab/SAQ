@@ -194,8 +194,6 @@ class PreResNet(nn.Module):
 
 def preresnet20(**kwargs):
     """Constructs a PreResNet-20 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = PreResNet(depth=20, **kwargs)
     return model
@@ -203,8 +201,6 @@ def preresnet20(**kwargs):
 
 def preresnet32(**kwargs):
     """Constructs a PreResNet-32 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = PreResNet(depth=32, **kwargs)
     return model
@@ -212,8 +208,6 @@ def preresnet32(**kwargs):
 
 def preresnet44(**kwargs):
     """Constructs a PreResNet-44 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = PreResNet(depth=44, **kwargs)
     return model
@@ -221,8 +215,6 @@ def preresnet44(**kwargs):
 
 def preresnet56(**kwargs):
     """Constructs a PreResNet-56 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = PreResNet(depth=56, **kwargs)
     return model
@@ -230,8 +222,6 @@ def preresnet56(**kwargs):
 
 def preresnet110(**kwargs):
     """Constructs a PreResNet-110 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = PreResNet(depth=110, **kwargs)
     return model

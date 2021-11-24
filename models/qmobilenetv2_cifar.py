@@ -204,8 +204,6 @@ class QSAMMobileNetV2Cifar(nn.Module):
 
 def qsammobilenetv2_cifar(**kwargs):
     """Constructs a QSAMMobileNetV2CIFAR model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMMobileNetV2Cifar(**kwargs)
     return model

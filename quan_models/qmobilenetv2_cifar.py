@@ -187,8 +187,6 @@ class QMobileNetV2Cifar(nn.Module):
 
 def qmobilenetv2_cifar(**kwargs):
     """Constructs a QMobileNetV2 Cifar model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QMobileNetV2Cifar(**kwargs)
     return model

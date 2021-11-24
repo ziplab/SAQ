@@ -442,8 +442,6 @@ class QSAMSMobileNetV2(nn.Module):
 
 def qsamsmobilenetv2(**kwargs):
     """Constructs a QSAMSMobileNetv2 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMSMobileNetV2(**kwargs)
     return model

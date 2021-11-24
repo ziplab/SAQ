@@ -216,7 +216,7 @@ def controller_train(
     args,
 ):
     """
-        Train one epoch for auxnet
+        Train one epoch
         :param epoch: index of epoch
         """
 
@@ -489,7 +489,7 @@ def train(
     args,
 ):
     """
-        Train one epoch for auxnet
+        Train one epoch
         :param epoch: index of epoch
         """
 

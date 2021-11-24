@@ -351,8 +351,6 @@ class QResNet(nn.Module):
 
 def qresnet18(pretrained=False, **kwargs):
     """Constructs a QResNet-18 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QResNet(depth=18, **kwargs)
     if pretrained:
@@ -362,8 +360,6 @@ def qresnet18(pretrained=False, **kwargs):
 
 def qresnet34(pretrained=False, **kwargs):
     """Constructs a QResNet-34 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QResNet(depth=34, **kwargs)
     if pretrained:
@@ -373,8 +369,6 @@ def qresnet34(pretrained=False, **kwargs):
 
 def qresnet50(pretrained=False, **kwargs):
     """Constructs a QResNet-50 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QResNet(depth=50, **kwargs)
     if pretrained:
@@ -384,8 +378,6 @@ def qresnet50(pretrained=False, **kwargs):
 
 def qresnet101(pretrained=False, **kwargs):
     """Constructs a QResNet-101 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QResNet(depth=101, **kwargs)
     if pretrained:
@@ -395,8 +387,6 @@ def qresnet101(pretrained=False, **kwargs):
 
 def qresnet152(pretrained=False, **kwargs):
     """Constructs a QResNet-152 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QResNet(depth=152, **kwargs)
     if pretrained:

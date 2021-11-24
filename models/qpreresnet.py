@@ -366,8 +366,6 @@ class QSAMPreResNet(nn.Module):
 
 def qsampreresnet20(**kwargs):
     """Constructs a QSAMPreResNet-20 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMPreResNet(depth=20, **kwargs)
     return model
@@ -375,8 +373,6 @@ def qsampreresnet20(**kwargs):
 
 def qsampreresnet32(**kwargs):
     """Constructs a QSAMPreResNet-32 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMPreResNet(depth=32, **kwargs)
     return model
@@ -384,8 +380,6 @@ def qsampreresnet32(**kwargs):
 
 def qsampreresnet44(**kwargs):
     """Constructs a QSAMPreResNet-44 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMPreResNet(depth=44, **kwargs)
     return model
@@ -393,8 +387,6 @@ def qsampreresnet44(**kwargs):
 
 def qsampreresnet56(**kwargs):
     """Constructs a QSAMPreResNet-56 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMPreResNet(depth=56, **kwargs)
     return model
@@ -402,8 +394,6 @@ def qsampreresnet56(**kwargs):
 
 def qsampreresnet110(**kwargs):
     """Constructs a QSAMPreResNet-110 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
     model = QSAMPreResNet(depth=110, **kwargs)
     return model
