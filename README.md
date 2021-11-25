@@ -2,9 +2,11 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+**This is the official repository for our paper:** [Sharpness-aware Quantization for Deep Neural Networks](https://arxiv.org/abs/2111.12273) by [Jing Liu](https://www.jing-liu.com/), [Jianfei Cai](https://jianfei-cai.github.io/), and [Bohan Zhuang](https://bohanzhuang.github.io/).
+
 ## Recent Update
 
-**`2021.11.23`**: We release the source code of SAQ.
+**`2021.11.24`**: We release the source code of SAQ.
 
 ## Setup the environments
 
