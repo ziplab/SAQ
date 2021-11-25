@@ -147,3 +147,15 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 ## Acknowledgement
 
 This repository has adopted codes from [SAM](https://github.com/davda54/sam), [ASAM](https://github.com/SamsungLabs/ASAM) and [ESAM](https://github.com/dydjw9/efficient_sam), we thank the authors for their open-sourced code.
+
+
+## Citation
+If you find *SAQ* useful in your research, please consider to cite the following related papers:
+```
+@article{liu2021sharpnessaware,
+    title={Sharpness-aware Quantization for Deep Neural Networks}, 
+    author={Jing Liu and Jianfei Cai and Bohan Zhuang},
+    journal={arXiv preprint arXiv:2111.12273},
+    year={2021},
+}
+```
