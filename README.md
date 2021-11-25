@@ -142,14 +142,6 @@ sh script/finetune_imagenet_r18.sh
 | MobileNetV2 | SAQ | 4 | 5.3 | 70.2 | 89.4 |
 | MobileNetV2 | SAMQ | MP | 5.3 | 70.3 | 89.4 |
 
-## License
-
-This repository is released under the Apache 2.0 license as found in the [LICENSE](LICENSE) file.
-
-## Acknowledgement
-
-This repository has adopted codes from [SAM](https://github.com/davda54/sam), [ASAM](https://github.com/SamsungLabs/ASAM) and [ESAM](https://github.com/dydjw9/efficient_sam), we thank the authors for their open-sourced code.
-
 
 ## Citation
 If you find *SAQ* useful in your research, please consider to cite the following related papers:
@@ -161,3 +153,11 @@ If you find *SAQ* useful in your research, please consider to cite the following
     year={2021},
 }
 ```
+
+## License
+
+This repository is released under the Apache 2.0 license as found in the [LICENSE](LICENSE) file.
+
+## Acknowledgement
+
+This repository has adopted codes from [SAM](https://github.com/davda54/sam), [ASAM](https://github.com/SamsungLabs/ASAM) and [ESAM](https://github.com/dydjw9/efficient_sam), we thank the authors for their open-sourced code.
